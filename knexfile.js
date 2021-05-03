@@ -3,6 +3,6 @@ module.exports = {
     connection: process.env.DATABASE_URL,
     migrations: {
         directory: `${__dirname}/src/model/migrations`
-    }
-    
+    },
+    ssl: false
 }

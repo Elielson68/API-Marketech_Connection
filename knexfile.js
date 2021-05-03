@@ -4,5 +4,5 @@ module.exports = {
     migrations: {
         directory: `${__dirname}/src/model/migrations`
     },
-    ssl: false
+    ssl: true
 }
